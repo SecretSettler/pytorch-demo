@@ -20,6 +20,7 @@ This command will allocate a compute node with one GPU. Once inside the compute 
 
 ```bash
 conda activate mlsys
+cd pytorch-demo
 python demo.py
 ```
 
