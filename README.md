@@ -16,11 +16,10 @@ To start the demo interactively, use:
 srun --gres gpu:1 --pty bash
 ```
 
-This command will allocate a compute node with one GPU. Once inside the compute node, run the following commands to execute the demo:
+This command will allocate and enter a compute node with one GPU. Once inside the compute node, run the following commands to execute the demo:
 
 ```bash
 conda activate mlsys
-cd pytorch-demo
 python demo.py
 ```
 
