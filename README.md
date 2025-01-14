@@ -1,5 +1,8 @@
 ### **1. Install Required Packages**
+On the head node:
 ```bash
+git clone https://github.com/SecretSettler/pytorch-demo.git
+cd pytorch-demo
 conda create -n mlsys python=3.10 -y
 conda activate mlsys
 pip install -r requirements.txt
@@ -31,6 +34,7 @@ To run the demo in batch mode, first create a Bash script (e.g., `test.sh`) with
 #!/bin/bash
 source ~/miniconda3/bin/activate
 conda activate mlsys
+cd pytorch-demo
 python demo.py
 ```
 
